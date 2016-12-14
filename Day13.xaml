@@ -1,0 +1,10 @@
+﻿<Page
+    x:Class="AdventOfCodeUwp.Day13"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <CanvasControl xmlns="using:Microsoft.Graphics.Canvas.UI.Xaml" x:Name="canvasControl" 
+                       Draw="OnDraw" ClearColor="CornflowerBlue"/>
+    </Grid>
+</Page>
